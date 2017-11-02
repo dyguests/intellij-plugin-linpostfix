@@ -1,8 +1,8 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.fanhl.intellij.postfix</id>
+  <name>Lin Postfix</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="dyguests@qq.com" url="https://github.com/dyguests">dyguests</vendor>
 
   <description><![CDATA[
       Enter short description for your plugin here.<br>
