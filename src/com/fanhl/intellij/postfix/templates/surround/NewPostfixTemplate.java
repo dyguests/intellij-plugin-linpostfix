@@ -13,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
  */
 public class NewPostfixTemplate extends StringBasedPostfixTemplate {
     public NewPostfixTemplate() {
-        super("new", "new expr()", JavaPostfixTemplatesUtils.selectorTopmost(JavaPostfixTemplatesUtils.IS_NON_VOID));
+        super("new", "new expr()", JavaPostfixTemplatesUtils.selectorTopmost());
     }
 
     @Nullable
