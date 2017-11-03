@@ -8,6 +8,10 @@ Android postfix plugin for AndroidStudio.
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | .new        | new a Class.                                                                             | new Test()
 
+# Plugin page
+
+[JetBrains plugin page](https://plugins.jetbrains.com/plugin/10148)
+
 # Thanks
 
 [guava-postfix-plugin](https://github.com/ukcrpb6/guava-postfix-plugin)
