@@ -5,13 +5,51 @@
     <vendor email="dyguests@qq.com" url="https://github.com/dyguests/intellij-plugin-linpostfix">dyguests</vendor>
 
     <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Postfix completion templates for Android<br/><br/>
+
+      <b>Available templates:</b><br/><br/>
+
+      <ul>
+        <li> <b>.new</b><br/><em>new a Class</em><br/><b>new expr()</b></li>
+      </ul>
+
+      <!--<ul>-->
+        <!--<li> <b>.log</b><br/><em>Log</em><br/><b>Log.d("log", expr);</b></li>-->
+      <!--</ul>-->
+      <!--<ul>-->
+        <!--<li> <b>.logd</b><br/><em>If BuildConfig.DEBUG is true, Log message.</em><br/><b>Log.d("log", expr);</b></li>-->
+      <!--</ul>-->
+      <!--<ul>-->
+        <!--<li> <b>.find</b><br/><em>Typed FindView</em><br/><b>(ViewType) findViewById(expr);</b></li>-->
+      <!--</ul>-->
+      <!--<ul>-->
+        <!--<li> <b>.isemp</b><br/><em>isEmpty</em><br/><b>TextUtils.isEmpty(expr);</b></li>-->
+      <!--</ul>-->
+      <!--<ul>-->
+        <!--<li> <b>.vg</b><br/><em>? View.VISIBLE : View.GONE;</em><br/><b> (expr) ? View.VISIBLE : View.GONE;</b></li>-->
+      <!--</ul>-->
+      <!--<ul>-->
+        <!--<li> <b>.vsb .invsb .gone</b><br/>-->
+             <!--<em>Change View's visibility.</em><br/>-->
+             <!--<b> view.setVisibility(View.VISIBLE);</b>-->
+             <!--<b> view.setVisibility(View.INVISIBLE);</b>-->
+             <!--<b> view.setVisibility(View.GONE);</b>-->
+             <!--</li>-->
+      <!--</ul>-->
+      <!--<ul>-->
+        <!--<li> <b>.snack .snackaction</b><br/>-->
+             <!--<em>Show a Snackbar with or without an anction.</em><br/>-->
+             <!--<b> Snackbar.make(view, expr, Snackbar.LENGTH_SHORT).show();</b><br/>-->
+             <!--<b> Snackbar.make(view, expr, Snackbar.LENGTH_LONG).setAction(...).show();<br/>-->
+             <!--</b>-->
+             <!--</li>-->
+      <!--</ul>-->
+
     ]]></description>
 
     <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      * Add .new that generate `new expr()`.
+      <!--* Add .vg that generate (expr) ? View.VISIBLE : View.GONE.-->
     ]]>
     </change-notes>
 
