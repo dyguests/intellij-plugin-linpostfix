@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.fanhl.intellij.postfix</id>
     <name>Lin Postfix</name>
-    <version>1.0</version>
+    <version>0.1</version>
     <vendor email="dyguests@qq.com" url="https://github.com/dyguests">dyguests</vendor>
 
     <description><![CDATA[
